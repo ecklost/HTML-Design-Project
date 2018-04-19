@@ -101,22 +101,36 @@ A list of requirements are below. They are in no particular order and, ideally, 
 
 The hierarchy for the website is as follows in the image below:
 
+<img align="left" src="https://github.com/ecklost/HTML-Design-Project/blob/master/images/hierarchy.png">
 
 The layout in the diagram provides the most logical approach to the web site. The boxes marked in blue use a ‘home page’ template; boxes in orange have a ‘main content’ or ‘event listing’ template; and the green boxes dictate a ‘text-heavy’ template. While the diagram doesn’t explicitly mention it, each web page can interact with one another because of the navigation each page will have. Since the majority of users will visit the website for events, those blocks are noted first. As the reader looks at the diagram from left to right, so to is the assumed importance of each page.  From top to bottom, the order goes main splash screen (home page), main pages, and then sub sections and web pages. As a final note, the entertainment page may not be used and just go straight to the three pages it is meant to lead to.
 
 
 ## Wireframe
 
-In general, there are three types of pages for the website. The first is the home page (right). For this, I’m choosing a grid layout. There’s nothing out of the ordinary here. The header and navigation are at the top and neatly noted while the footer is naturally at the bottom. In between, each of the pages in the navigation is transformed into a block, and is easily read and clickable. Since most people are after events and entertainment, those two take precedence. Following that, links on volunteering and additional information on the website and links to other websites are mentioned. Note that the navigation and the way the blocks are listed are the same.
+In general, there are three types of pages for the website. The first is the home page (below). For this, I’m choosing a grid layout. There’s nothing out of the ordinary here. The header and navigation are at the top and neatly noted while the footer is naturally at the bottom. In between, each of the pages in the navigation is transformed into a block, and is easily read and clickable. Since most people are after events and entertainment, those two take precedence. Following that, links on volunteering and additional information on the website and links to other websites are mentioned. Note that the navigation and the way the blocks are listed are the same.
+
+<img align="left" width=323 height=408 src="https://github.com/ecklost/HTML-Design-Project/blob/master/images/home.png">
 
 The events, entertainment, and volunteering web pages are have the same header, navigation, and footer as mentioned before (below, left). The major difference is the content in the middle of the page. Initially, the user will only see ten items on the page. The user can choose and click on check boxes as needed to further refine their search. Ideally, these items will have the name, date and time, and location of the event. Additionally, upon loading the page to entertainment, the user will be greeted with three subsections – music, plays, and sports. Clicking on any of them will bring up the format listed above.
 
-Finally, the third main page (above, right) is meant for information and articles. The content for this page will have the article in an L-shape with a small section on in the open area of the L. For this page, I intend to use it for the ‘About’ and ‘Links’ pages. The article lists the bulk of the content and is mainly what it says on the tin. The small, non-following section is a wild card, but most likely will contain three to five hand-picked events that are coming up.
+Finally, the third main page (below, right) is meant for information and articles. The content for this page will have the article in an L-shape with a small section on in the open area of the L. For this page, I intend to use it for the ‘About’ and ‘Links’ pages. The article lists the bulk of the content and is mainly what it says on the tin. The small, non-following section is a wild card, but most likely will contain three to five hand-picked events that are coming up.
+
+<img align="left" width=323 height=408 src="https://github.com/ecklost/HTML-Design-Project/blob/master/images/event.png">
 
 In short, I need three templates because each page has different content. One serves to lead people to other content (the home and entertainment page), one actually lists content (events, volunteering, and the three categorized entertainment pages), and one for text-heavy pages (the about and links pages). Each template is made for a specific purpose and is created to cater to that purpose.
 
 Common elements found throughout all pages include grid design, content centered horizontally on the web page, justified text for articles, and same position for headers, navigation and footers.
 
+<img align="right" width=323 height=408 src="https://github.com/ecklost/HTML-Design-Project/blob/master/images/about.png">
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 ## Prototypes
 
