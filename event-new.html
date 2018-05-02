@@ -11,6 +11,8 @@
 		
 		<link type="text/css" rel="Stylesheet" href="desktop.css" 
 			media="only screen and (min-device-width:601px)"/>-->
+		<script type="text/javascript" src="js/search.js" async></script>
+		<script type="text/javascript" src="js/findLocation.js" async></script>
 		
 	</head>
 	<body>
@@ -38,6 +40,8 @@
 			</div>
 		</div>
 		
+		<br>
+		
 		<!-- Event Block -->
 		
 		<!--<div class="row">
@@ -45,87 +49,87 @@
 			</div>
 			<div class="col-4">-->
 				<input type="text" id="myInput" onkeyup="findName()" placeholder="Search for names.." title="Type in a name">
-				<input type="text" id="myInput" onkeyup="findLocation()" placeholder="Search for places.." title="Type in a location">
+				
+				<input type="text" id="myInput" onkeyup="findLocation()" placeholder="Search for locations.." title="Type in a location">
+				
 				<table id="myTable">
 				<caption> <center> List of Musicians Coming to Town </center> </caption>
-				<tr>
-					<td> </td>
+				<tr bgcolor="#FFA500">
 					<td> Name </td>
 					<td> Location </td>
 					<td> Date </td>
 					<td> Time </td>
 					<td> Tickets </td>
 				</tr>
-				<tr>
-					<td> blue </td>
+				<tr bgcolor="#ADD8E6">
 					<td> Madison Beer </td>
 					<td> House of Blues </td>
 					<td> 5/10/18 </td>
 					<td> 7 PM </td>
 					<td> <a href="http://www.houseofblues.com/cleveland/EventDetail?tmeventid=05005442DBC39B28&offerid=76727"> Here </a> </td>
 				</tr>
-				<tr>
-					<td> blue </td>
+				<tr bgcolor="#ADD8E6">
 					<td> The Struts </td>
 					<td> House of Blues </td>
 					<td> 5/11/18 </td>
 					<td> 7 PM </td>
+					<td> <a href="http://www.houseofblues.com/cleveland/EventDetail?tmeventid=0500544736638108&offerid=76946"> Here </a> </td>
 				</tr>
-				<tr>
-					<td> pink </td>
+				<tr bgcolor="FFB6C1">
 					<td> Obituary </td>
 					<td> The Agora </td>
 					<td> 5/11/18 </td>
 					<td> 6 PM </td>
+					<td> <a href="https://www.ticketweb.com/event/obituary-the-agora-ballroom-tickets/8069155?pl=agora"> Here </a> </td>
 				</tr>
-				<tr>
-					<td> blue </td>
+				<tr bgcolor="#ADD8E6">
 					<td> Tropidelic </td>
 					<td> House of Blues </td>
 					<td> 5/12/18 </td>
 					<td> 7 PM </td>
+					<td> <a href="http://www.houseofblues.com/cleveland/EventDetail?tmeventid=05005450C0A864F3&offerid=77188"> Here </a> </td>
 				</tr>
-				<tr>
-					<td> white </td>
+				<tr bgcolor="FFFFFF">
 					<td> Brit Floyd </td>
 					<td> Jacob's Pavilion </td>
 					<td> 5/12/18 </td>
 					<td> 8 PM </td>
+					<td> <a href="https://www.livenation.com/events/748171-may-12-2018-brit-floyd"> Here </a> </td>
 				</tr>
-				<tr>
-					<td> blue </td>
+				<tr bgcolor="#ADD8E6">
 					<td> Sons of Apollo </td>
 					<td> House of Blues </td>
 					<td> 5/15/18 </td>
 					<td> 7 PM </td>
+					<td> <a href="http://www.houseofblues.com/cleveland/EventDetail?tmeventid=05005450262607B6&offerid=77611"> Here </a> </td>
 				</tr>
-				<tr>
-					<td> pink </td>
+				<tr bgcolor="FFB6C1">
 					<td> Texas Hippie Coalition </td>
 					<td> The Agora </td>
 					<td> 5/15/18 </td>
 					<td> 6:30 PM </td>
+					<td> <a href="https://www.ticketweb.com/event/texas-hippie-coalition-the-agora-ballroom-tickets/8094305?pl=agora"> Here </a> </td>
 				</tr>
-				<tr>
-					<td> pink </td>
+				<tr bgcolor="FFB6C1">
 					<td> Nonpoint and Butcher Babies </td>
 					<td> The Agora </td>
 					<td> 5/16/18 </td>
 					<td> 5:30 PM </td>
+					<td> <a href="https://www.ticketweb.com/event/butcher-babies-nonpoint-the-agora-ballroom-tickets/8204965?pl=agora"> Here </a> </td>
 				</tr>
-				<tr>
-					<td> white </td>
+				<tr bgcolor="FFFFFF">
 					<td> Yanni </td>
 					<td> Jacob's Pavilion </td>
 					<td> 5/18/18 </td>
 					<td> 8 PM </td>
+					<td> <a href="https://concerts1.livenation.com/event/05005388EE178624?_ga=2.159139386.1224667892.1513013381-1869790445.1512409238"> Here </a> </td>
 				</tr>
-				<tr>
-					<td> wine </td>
+				<tr bgcolor="#AA4652">
 					<td> Hall and Oates with Train </td>
 					<td> Quicken Loans Arena </td>
 					<td> 5/22/18 </td>
 					<td> 7 PM </td>
+					<td> <a href="https://www.theqarena.com/events/detail/hall-oates-train-180522"> Here </a> </td>
 				</tr>
 				</table>
 			<!--<section class="section">
@@ -140,44 +144,6 @@
 			</section>-->
 			<!--</div>-->
 		<!--</div>-->
-		
-		<script>
-		function findName() {
-		  var input, filter, table, tr, td, i;
-		  input = document.getElementById("myInput");
-		  filter = input.value.toUpperCase();
-		  table = document.getElementById("myTable");
-		  tr = table.getElementsByTagName("tr");
-		  for (i = 0; i < tr.length; i++) {
-			td = tr[i].getElementsByTagName("td")[1];
-			if (td) {
-			  if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
-				tr[i].style.display = "";
-			  } else {
-				tr[i].style.display = "none";
-			  }
-			}       
-		  }
-		}
-		
-		function findLocation() {
-		  var input, filter, table, tr, td, i;
-		  input = document.getElementById("myInput");
-		  filter = input.value.toUpperCase();
-		  table = document.getElementById("myTable");
-		  tr = table.getElementsByTagName("tr");
-		  for (i = 0; i < tr.length; i++) {
-			td = tr[i].getElementsByTagName("td")[2];
-			if (td) {
-			  if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
-				tr[i].style.display = "";
-			  } else {
-				tr[i].style.display = "none";
-			  }
-			}       
-		  }
-		}
-		</script>
 		
 		<div class="row">
 			<div class="col-2nb">
