@@ -72,15 +72,15 @@ A list of requirements are below. They are in no particular order and, ideally, 
 
 **_Requirement #2_**: The website will be completely accessible and manageable through mobile devices and tablets. Therefore, progressive enhancement will be used as a basis.
 
-**_Requirement #3_**: For the purposes of this project, the events will be hand-picked. Therefore, a system to find events is needed. If possible, a JavaScript or web crawler might work too.
+[x] **_Requirement #3_**: For the purposes of this project, the events will be hand-picked. Therefore, a system to find events is needed. If possible, a JavaScript or web crawler might work too. (Events added 5/8/18)
 
 **_Requirement #4_**: The user should be able to send an email or set a remainder of events they wish to see. The user does not have to sign-up for any newsletter or make an account to access this functionality.
 
 **_Requirement #5_**: For each event, there should be tags that are associated with the event such as family-friendly, arts and crafts, popular, and so forth. 
 
-**_Requirement #6_**: The links page should provide accurate and up-to-date links to websites. A general list of companies, organizations, etc. will be provided here with some selected and well-known on an about page. 
+[x] **_Requirement #6_**: The links page should provide accurate and up-to-date links to websites. A general list of companies, organizations, etc. will be provided here with some selected and well-known on an about page. (Links page complete 5/8/18)
 
-**_Requirement #7_**: Non-politically organizations and groups are allowed to suggest their event be uploaded to the website. Likewise, the inverse is possible e.g. someone can request their event taken down due to not enough people attending. Most directly, this will be offered through email.
+[x] **_Requirement #7_**: Non-political organizations and groups are allowed to suggest their event be uploaded to the website. Likewise, the inverse is possible e.g. someone can request their event taken down due to not enough people attending. Most directly, this will be offered through email. (Email visible as of 5/7/18)
 
 **_Requirement #8_**: Allow users to see past events and plan accordingly for the next time the event happens. If an event is a one-time deal, a note should be made that the event may not be offered in the future.
 
