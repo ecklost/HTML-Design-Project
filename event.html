@@ -5,12 +5,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<title> Northeast Ohio Event Liaison (NOEL) </title>
 		
-		<link type="text/css" rel="Stylesheet" href="base.css" />
+		<link type="text/css" rel="Stylesheet" href="event-css.css" />
 
 		<!--<link type="text/css" rel="Stylesheet" href="mobile.css" />
 		
 		<link type="text/css" rel="Stylesheet" href="desktop.css" 
 			media="only screen and (min-device-width:601px)"/>-->
+		<script type="text/javascript" src="js/search.js" async></script>
+		<!--<script type="text/javascript" src="js/findLocation.js" async></script>-->
 		
 	</head>
 	<body>
@@ -24,12 +26,12 @@
 			<div class="col-8">
 			<nav class="nav">
 				<ul>
-					<li> Home
-					<li> Events
-					<li> Entertainment 
-					<li> Volunteering
-					<li> About
-					<li> Links
+					<li> <a href="index.html"> Home </a>
+					<li> <a href="event.html"> Events </a>
+					<li> <a href="entertainment.html"> Entertainment </a>
+					<li> <a href="volunteer.html"> Volunteering </a>
+					<li> <a href="about.html"> About </a>
+					<li> <a href="links.html"> Links </a>
 				</ul>
 			</nav>
 			</div>
@@ -38,13 +40,97 @@
 			</div>
 		</div>
 		
+		<br>
+		
 		<!-- Event Block -->
 		
-		<div class="row">
+		<!--<div class="row">
 			<div class="col-2nb">
 			</div>
-			<div class="col-4">
-			<section class="section">
+			<div class="col-4">-->
+				<center> <input type="text" id="myInput" onkeyup="findName()" placeholder="Search for names.." title="Type in a name"></center>
+				
+				<table id="myTable">
+				<caption> <center> List of Musicians Coming to Town </center> </caption>
+				<tr bgcolor="#FFA500">
+					<td> Name </td>
+					<td> Location </td>
+					<td> Date </td>
+					<td> Time </td>
+					<td> Tickets </td>
+				</tr>
+				<tr bgcolor="#ADD8E6">
+					<td> Madison Beer </td>
+					<td> House of Blues </td>
+					<td> 5/10/18 </td>
+					<td> 7 PM </td>
+					<td> <a href="http://www.houseofblues.com/cleveland/EventDetail?tmeventid=05005442DBC39B28&offerid=76727"> Here </a> </td>
+				</tr>
+				<tr bgcolor="#ADD8E6">
+					<td> The Struts </td>
+					<td> House of Blues </td>
+					<td> 5/11/18 </td>
+					<td> 7 PM </td>
+					<td> <a href="http://www.houseofblues.com/cleveland/EventDetail?tmeventid=0500544736638108&offerid=76946"> Here </a> </td>
+				</tr>
+				<tr bgcolor="FFB6C1">
+					<td> Obituary </td>
+					<td> The Agora </td>
+					<td> 5/11/18 </td>
+					<td> 6 PM </td>
+					<td> <a href="https://www.ticketweb.com/event/obituary-the-agora-ballroom-tickets/8069155?pl=agora"> Here </a> </td>
+				</tr>
+				<tr bgcolor="#ADD8E6">
+					<td> Tropidelic </td>
+					<td> House of Blues </td>
+					<td> 5/12/18 </td>
+					<td> 7 PM </td>
+					<td> <a href="http://www.houseofblues.com/cleveland/EventDetail?tmeventid=05005450C0A864F3&offerid=77188"> Here </a> </td>
+				</tr>
+				<tr bgcolor="FFFFFF">
+					<td> Brit Floyd </td>
+					<td> Jacob's Pavilion </td>
+					<td> 5/12/18 </td>
+					<td> 8 PM </td>
+					<td> <a href="https://www.livenation.com/events/748171-may-12-2018-brit-floyd"> Here </a> </td>
+				</tr>
+				<tr bgcolor="#ADD8E6">
+					<td> Sons of Apollo </td>
+					<td> House of Blues </td>
+					<td> 5/15/18 </td>
+					<td> 7 PM </td>
+					<td> <a href="http://www.houseofblues.com/cleveland/EventDetail?tmeventid=05005450262607B6&offerid=77611"> Here </a> </td>
+				</tr>
+				<tr bgcolor="FFB6C1">
+					<td> Texas Hippie Coalition </td>
+					<td> The Agora </td>
+					<td> 5/15/18 </td>
+					<td> 6:30 PM </td>
+					<td> <a href="https://www.ticketweb.com/event/texas-hippie-coalition-the-agora-ballroom-tickets/8094305?pl=agora"> Here </a> </td>
+				</tr>
+				<tr bgcolor="FFB6C1">
+					<td> Nonpoint and Butcher Babies </td>
+					<td> The Agora </td>
+					<td> 5/16/18 </td>
+					<td> 5:30 PM </td>
+					<td> <a href="https://www.ticketweb.com/event/butcher-babies-nonpoint-the-agora-ballroom-tickets/8204965?pl=agora"> Here </a> </td>
+				</tr>
+				<tr bgcolor="FFFFFF">
+					<td> Yanni </td>
+					<td> Jacob's Pavilion </td>
+					<td> 5/18/18 </td>
+					<td> 8 PM </td>
+					<td> <a href="https://concerts1.livenation.com/event/05005388EE178624?_ga=2.159139386.1224667892.1513013381-1869790445.1512409238"> Here </a> </td>
+				</tr>
+				<tr bgcolor="#AA4652">
+					<td> Hall and Oates with Train </td>
+					<td> Quicken Loans Arena </td>
+					<td> 5/22/18 </td>
+					<td> 7 PM </td>
+					<td> <a href="https://www.theqarena.com/events/detail/hall-oates-train-180522"> Here </a> </td>
+				</tr>
+				</table>
+			<!--<section class="section">
 				<div class="col-1">
 					<section class="tag">
 						<p> TAG </p>
@@ -53,163 +139,9 @@
 					<br>
 					<p> Lorem ipsum dolor sit amet</p>
 					<br>
-			</section>
-			</div>
-		</div>
-		
-		<!-- Event Block -->
-		
-		<div class="row">
-			<div class="col-2nb">
-			</div>
-			<div class="col-4">
-			<section class="section">
-				<div class="col-1">
-					<section class="tag">
-						<p> TAG </p>
-					</section>
-				</div>
-					<br>
-					<p> Lorem ipsum dolor sit amet</p>
-					<br>
-			</section>
-			</div>
-		</div>
-		
-		<!-- Event Block -->
-		
-		<div class="row">
-			<div class="col-2nb">
-			</div>
-			<div class="col-4">
-			<section class="section">
-				<div class="col-1">
-					<section class="tag">
-						<p> TAG </p>
-					</section>
-				</div>
-					<br>
-					<p> Lorem ipsum dolor sit amet</p>
-					<br>
-			</section>
-			</div>
-		</div>
-		
-		<!-- Event Block -->
-		
-		<div class="row">
-			<div class="col-2nb">
-			</div>
-			<div class="col-4">
-			<section class="section">
-				<div class="col-1">
-					<section class="tag">
-						<p> TAG </p>
-					</section>
-				</div>
-					<br>
-					<p> Lorem ipsum dolor sit amet</p>
-					<br>
-			</section>
-			</div>
-		</div>
-		
-		<!-- Event Block -->
-		
-		<div class="row">
-			<div class="col-2nb">
-			</div>
-			<div class="col-4">
-			<section class="section">
-				<div class="col-1">
-					<section class="tag">
-						<p> TAG </p>
-					</section>
-				</div>
-					<br>
-					<p> Lorem ipsum dolor sit amet</p>
-					<br>
-			</section>
-			</div>
-		</div>
-		
-		<!-- Event Block -->
-		
-		<div class="row">
-			<div class="col-2nb">
-			</div>
-			<div class="col-4">
-			<section class="section">
-				<div class="col-1">
-					<section class="tag">
-						<p> TAG </p>
-					</section>
-				</div>
-					<br>
-					<p> Lorem ipsum dolor sit amet</p>
-					<br>
-			</section>
-			</div>
-		</div>
-		
-		<!-- Event Block -->
-		
-		<div class="row">
-			<div class="col-2nb">
-			</div>
-			<div class="col-4">
-			<section class="section">
-				<div class="col-1">
-					<section class="tag">
-						<p> TAG </p>
-					</section>
-				</div>
-					<br>
-					<p> Lorem ipsum dolor sit amet</p>
-					<br>
-			</section>
-			</div>
-		</div>
-		
-		<!-- Event Block -->
-		
-		<div class="row">
-			<div class="col-2nb">
-			</div>
-			<div class="col-4">
-			<section class="section">
-				<div class="col-1">
-					<section class="tag">
-						<p> TAG </p>
-					</section>
-				</div>
-					<br>
-					<p> Lorem ipsum dolor sit amet</p>
-					<br>
-			</section>
-			</div>
-		</div>
-		
-		<!-- Event Block -->
-		
-		<div class="row">
-			<div class="col-2nb">
-			</div>
-			<div class="col-4">
-			<section class="section">
-				<div class="col-1">
-					<section class="tag">
-						<p> TAG </p>
-					</section>
-				</div>
-					<br>
-					<p> Lorem ipsum dolor sit amet</p>
-					<br>
-			</section>
-			</div>
-		</div>
-		
-		<!-- Footer -->
+			</section>-->
+			<!--</div>-->
+		<!--</div>-->
 		
 		<div class="row">
 			<div class="col-2nb">
