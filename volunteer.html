@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title> Northeast Ohio Event Liaison (NOEL) </title>
+		
+		<link type="text/css" rel="Stylesheet" href="mobile.css"
+			media="only screen and (max-device-width:950px)"/>
+		
+		<link type="text/css" rel="Stylesheet" href="event-css.css" 
+			media="only screen and (min-device-width:951px)"/>
+			
+		<script type="text/javascript" src="js/search.js" async></script>
+		<script type="text/javascript" src="js/findLocation.js" async></script>
+		<script type="text/javascript" src="js/findDate.js" async></script>
+		<script type="text/javascript" src="js/findTime.js" async></script>
+		
+	</head>
+	<body>
+		<div class="row">
+			<div class="col-2nb">
+			</div>
+			<div class="col-4">
+			<header class="header">
+				<center> <h1> Northeast Ohio Event Liaison (NOEL) </h1> </center>
+						<div class="row">
+			<div class="col-8">
+			<nav class="nav">
+				<ul>
+					<li> <a href="index.html"> Home </a> </li>
+					<li> <a href="volunteer.html"> Volunteer </a> </li>	
+					<li> <a href="event.html"> Events </a> </li>
+					<li> <a href="music.html#"> Music </a> </li>
+					<li> <a href="sports.html"> Sporting </a> </li>
+					<li> <a href="about.html"> About </a> </li>
+					<li> <a href="links.html"> Links </a> </li>
+				</ul>
+			</nav>
+			</div>
+		</div>
+			</header>
+			</div>
+		</div>
+		
+		<!-- Event Block -->
+				
+			<table id="myTable">
+				<caption> <center> Volunteering Opportunities </center> </caption>
+				<tr bgcolor="#FFA500">
+					<td> Name </td>
+					<td> Location </td>
+					<td> Date </td>
+					<td> Time </td>
+					<td> Info </td>
+				</tr>
+				<tr bgcolor="#FFFFFF">
+					<td> <center> <input type="text" id="myInput" onkeyup="findName()" placeholder="Search for names.." title="Type in a name"></center> </td>
+					<td> <center> <input type="text" id="findLocation" onkeyup="findLocation()" placeholder="Search for locations.." title="Type in a location"></center> </td>
+					<td> <center> <input type="text" id="findDate" onkeyup="findDate()" placeholder="Search for dates.." title="Type in a date"></center></td>
+					<td> <center> <input type="text" id="findTime" onkeyup="findTime()" placeholder="Search for times.." title="Type in a time"></center></td>
+					<td> </td>
+				</tr>
+				<tr bgcolor="#EEEEEE">
+					<td> 14th Annual New Leash on Life Woof Walk </td>
+					<td> Edgewater Park </td>
+					<td> 5/12/18 </td>
+					<td> 8 AM </td>
+					<td> <a href="https://northeastohiospca.org/events"> Here </a> </td>
+				</tr>
+				<tr bgcolor="FFFFFF">
+					<td> 30th Annual Run/Walk for Hunger </td>
+					<td> Great Lakes Science Center </td>
+					<td> 5/12/18 </td>
+					<td> 9 AM </td>
+					<td> <a href="https://www.hungernetwork.org/index.cfm?fuseaction=donorDrive.event&eventID=543"> Here </a> </td>
+				</tr>
+				<tr bgcolor="#EEEEEE">
+					<td> 4th Annual Wine and Whisker Fundraiser </td>
+					<td> Bottlehouse Brewery </td>
+					<td> 5/12/18 </td>
+					<td> 5 PM </td>
+					<td> <a href="https://purrfectcompanions.org/cat-news/upcoming-events"> Here </a> </td>
+				</tr>
+				<tr bgcolor="FFFFFF">
+					<td> 6th Annual Veterans Honor Run</td>
+					<td> 150 Avon Belden Road </td>
+					<td> 5/27/18 </td>
+					<td> 8:30 AM </td>
+					<td> <a href="http://theruniversity.com/event/veterans-honor-run/"> Here </a> </td>
+				</tr>
+				<tr bgcolor="#EEEEEE">
+					<td> Green Jewel 50K and 25K </td>
+					<td> Cleveland Metroparks - Brecksville </td>
+					<td> 6/02/18 </td>
+					<td> 7 AM </td>
+					<td> <a href="https://www.westernreserveracing.com/events/green-jewel-50k-25k/"> Here </a> </td>
+				</tr>
+				<tr bgcolor="#FFFFFF">
+					<td> 18th Annual Race for the Place </td>
+					<td> Beachwood Place </td>
+					<td> 6/03/18 </td>
+					<td> 7:30 AM </td>
+					<td> <a href="https://www.classy.org/event/race-for-the-place-2018/e170629"> Here </a> </td>
+				</tr>
+				<tr bgcolor="EEEEEE">
+					<td> Rise Up Against Addiction 5K Walk/Run </td>
+					<td> Voinovich Bicentennial Park </td>
+					<td> 6/03/18 </td>
+					<td> 8 AM </td>
+					<td> <a href="https://www.shatterproof5k.org/cleveland"> Here </a> </td>
+				</tr>
+				<tr bgcolor="#FFFFFF">
+					<td> Northeast Ohio Kidney Walk </td>
+					<td> Great Lakes Science Center </td>
+					<td> 6/10/18 </td>
+					<td> 9 AM </td>
+					<td> <a href="http://donate.kidney.org/site/TR/Walk/NKFServingOhioKentuckyandTennessee?fr_id=8782&pg=entry"> Here </a> </td>
+				</tr>
+				<tr bgcolor="EEEEEE">
+					<td> Caveman Crawl 5K Trail Run </td>
+					<td> Geauga Park District </td>
+					<td> 6/10/18 </td>
+					<td> 7 AM </td>
+					<td> <a href="https://reservations.geaugaparkdistrict.org/programs/"> Here </a> </td>
+				</tr>
+				<tr bgcolor="FFFFFF">
+					<td> Greater Cleveland Habitat for Humanity 5K Run </td>
+					<td> Edgewater Park </td>
+					<td> 6/16/18 </td>
+					<td> 10 AM</td>
+					<td> <a href="http://fundraise.clevelandhabitat.org/site/TR?fr_id=1080&pg=entry"> Here </a> </td>
+				</tr>
+			</table>
+		<div class="row">
+			<div class="col-2nb">
+			</div>
+			<div class="col-4">
+			<footer class="footer">
+				<p> <center>&#169; 2018 - Eric Klostermeyer </center> <center> Contact Me: eklostermeyer@gmail.com </center></p>
+			</footer>
+			</div>
+		</div>
+	</body>
+</html>

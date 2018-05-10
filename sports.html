@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title> Northeast Ohio Event Liaison (NOEL) </title>
+		
+		<link type="text/css" rel="Stylesheet" href="mobile.css"
+			media="only screen and (max-device-width:950px)"/>
+		
+		<link type="text/css" rel="Stylesheet" href="event-css.css" 
+			media="only screen and (min-device-width:951px)"/>
+			
+		<script type="text/javascript" src="js/search.js" async></script>
+		<script type="text/javascript" src="js/findLocation.js" async></script>
+		<script type="text/javascript" src="js/findDate.js" async></script>
+		<script type="text/javascript" src="js/findTime.js" async></script>
+		
+	</head>
+	<body>
+		<div class="row">
+			<div class="col-2nb">
+			</div>
+			<div class="col-4">
+			<header class="header">
+				<center> <h1> Northeast Ohio Event Liaison (NOEL) </h1> </center>
+						<div class="row">
+			<div class="col-8">
+			<nav class="nav">
+				<ul>
+					<li> <a href="index.html"> Home </a> </li>
+					<li> <a href="volunteer.html"> Volunteer </a> </li>	
+					<li> <a href="event.html"> Events </a> </li>
+					<li> <a href="music.html#"> Music </a> </li>
+					<li> <a href="sports.html"> Sporting </a> </li>
+					<li> <a href="about.html"> About </a> </li>
+					<li> <a href="links.html"> Links </a> </li>
+				</ul>
+			</nav>
+			</div>
+		</div>
+			</header>
+			</div>
+		</div>
+		
+		<!-- Event Block -->
+				
+			<table id="myTable">
+				<caption> <center> Sporting Events </center> </caption>
+				<tr bgcolor="#FFA500">
+					<td> Name </td>
+					<td> Location </td>
+					<td> Date </td>
+					<td> Time </td>
+					<td> Info </td>
+				</tr>
+				<tr bgcolor="#FFFFFF">
+					<td> <center> <input type="text" id="myInput" onkeyup="findName()" placeholder="Search for names.." title="Type in a name"></center> </td>
+					<td> <center> <input type="text" id="findLocation" onkeyup="findLocation()" placeholder="Search for locations.." title="Type in a location"></center> </td>
+					<td> <center> <input type="text" id="findDate" onkeyup="findDate()" placeholder="Search for dates.." title="Type in a date"></center></td>
+					<td> <center> <input type="text" id="findTime" onkeyup="findTime()" placeholder="Search for times.." title="Type in a time"></center></td>
+					<td> </td>
+				</tr>
+				<tr bgcolor="#EEEEEE">
+					<td> MAC Baseball Tournament </td>
+					<td> All Pro Freight Stadium </td>
+					<td> 5/23/18 </td>
+					<td> 8 AM </td>
+					<td> <a href="http://www.cleveland.com/events/event/mac-baseball-tournament/285654/#1527076800"> Here </a> </td>
+				</tr>
+				<tr bgcolor="FFFFFF">
+					<td> USA Wrestling Qualifiers </td>
+					<td> University of Akron </td>
+					<td> 5/31/18 </td>
+					<td> 9 AM </td>
+					<td> <a href="http://www.cleveland.com/events/event/usa-wrestling-uww-cadet-u23-world-team-trial-qualifier/285699/#1527771600"> Here </a> </td>
+				</tr>
+				<tr bgcolor="#EEEEEE">
+					<td> Parma Recreation Soccer </td>
+					<td> James Day Park </td>
+					<td> 6/04/18 </td>
+					<td> All Day </td>
+					<td> <a href="http://www.cleveland.com/events/event/parma-recreation-soccer/283599/#1528084800"> Here </a> </td>
+				</tr>
+				<tr bgcolor="FFFFFF">
+					<td> Geauga Bowmen Archery Shoot </td>
+					<td> Geauga Bowmen Archery Club </td>
+					<td> 6/09/18 </td>
+					<td> 8 AM </td>
+					<td> <a href="http://www.geaugabowmen.com/events.asp"> Here </a> </td>
+				</tr>
+				<tr bgcolor="#EEEEEE">
+					<td> 2018 Golf Outing at Sweetbriar </td>
+					<td> Sweetbriar Golf Course </td>
+					<td> 6/11/18 </td>
+					<td> 9 AM </td>
+					<td> <a href="http://kfohio.org/events.html#"> Here </a> </td>
+				</tr>
+				<tr bgcolor="#FFFFFF">
+					<td> Westlake Recreation Adult Softball </td>
+					<td> Westlake Recreation Center </td>
+					<td> 6/16/18 </td>
+					<td> All Day </td>
+					<td> <a href="https://www.cityofwestlake.org/287/Recreation"> Here </a> </td>
+				</tr>
+				<tr bgcolor="EEEEEE">
+					<td> Girls Volleyball League </td>
+					<td> Westlake Recreation Center </td>
+					<td> 6/16/18 </td>
+					<td> All Day </td>
+					<td> <a href="https://www.cityofwestlake.org/287/Recreation"> Here </a> </td>
+				</tr>
+				<tr bgcolor="#FFFFFF">
+					<td> Play Catch with Dad - Father's Day at the Park </td>
+					<td> Baseball Heritage Museum </td>
+					<td> 6/17/18 </td>
+					<td> 11 AM </td>
+					<td> <a href="http://baseballheritagemuseum.org/events/category/baseball-heritage-museum-events/list/?tribe_paged=2&tribe_event_display=list"> Here </a> </td>
+				</tr>
+				<tr bgcolor="EEEEEE">
+					<td> Chagrin Hunter Jumper Classic Events </td>
+					<td> Cleveland Metroparks Polo Field </td>
+					<td> 7/05/18 </td>
+					<td> All Day </td>
+					<td> <a href="http://chagrinhunterjumperclassic.org/spectator-fun/"> Here </a> </td>
+				</tr>
+				<tr bgcolor="FFFFFF">
+					<td> 2018 Hall of Fame Game </td>
+					<td> Pro-Football Hall of Fame </td>
+					<td> 8/02/18 </td>
+					<td> 8 PM</td>
+					<td> <a href="http://www.profootballhof.com/events/2018-hall-of-fame-game/"> Here </a> </td>
+				</tr>
+			</table>
+		<div class="row">
+			<div class="col-2nb">
+			</div>
+			<div class="col-4">
+			<footer class="footer">
+				<p> <center>&#169; 2018 - Eric Klostermeyer </center> <center> Contact Me: eklostermeyer@gmail.com </center></p>
+			</footer>
+			</div>
+		</div>
+	</body>
+</html>
