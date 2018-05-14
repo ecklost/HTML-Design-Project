@@ -135,3 +135,11 @@ Common elements found throughout all pages include grid design, content centered
 ## Prototypes
 
 The HTML and CSS files can be found attached in the accompanying folder. They are titled, “index.html”, “event.html”, and “about.html”. In the future, it is hoped these will be used as templates, although, it is likely that quite a few elements will need to change.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+## As of 5/10/2018, I satisfied with this work, but may revisit in the future.
